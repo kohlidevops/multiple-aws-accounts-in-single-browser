@@ -24,11 +24,13 @@ https://releases.commonfate.io/granted/v0.14.1/granted_0.14.1_windows_x86_64.zip
 **If you are using Linux machine, then**
 
 #curl -OL releases.commonfate.io/granted/v0.14.1/granted_0.14.1_linux_x86_64.tar.gz
+
 #sudo tar -zxvf ./granted_0.14.1_linux_x86_64.tar.gz -C /usr/local/bin/
 
 **If you are using Mac machine, then**
 
 #brew tap common-fate/granted
+
 #brew install granted
 
 **Once installed you can check with "granted" command**
@@ -65,4 +67,5 @@ I hope, you can associate your AWS SSO. However, Don't forget that you are using
 
 <img width="959" alt="image" src="https://github.com/kohlidevops/multiple-aws-accounts-in-single-browser/assets/100069489/72b65ae4-2eb6-490a-baf9-db6c240e7206">
 
+That's it.
 
