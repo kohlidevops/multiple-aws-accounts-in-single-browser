@@ -1,7 +1,21 @@
 # multiple-aws-accounts-in-single-browser
-To access the multiple AWS Accounts from single browser
+**To access the multiple AWS Accounts from single browser**
 
-Download the granted installer to your local machine
+AWS Single Sign-On (SSO) is designed to provide a centralized authentication mechanism for accessing multiple AWS accounts and applications. However, using multiple AWS accounts in a single browser session can be limited due to the way AWS SSO and browser cookies work. In this case, we can go with Granted.
+
+**Granted - Intro**
+
+Granted is a command line interface (CLI) tool which simplifies access to cloud roles and allows multiple cloud accounts to be opened in your web browser simultaneously. 
+
+**The goals of Granted are:**
+
+1. Provide a fast experience around finding and assuming roles
+2. Leverage native browser functionality to allow multiple accounts to be accessed at once
+3. Encrypt cached credentials to avoid plaintext SSO tokens being saved on disk
+
+**Granted currently support AWS Cloud Only**
+
+**Download the granted installer to your local machine**
 
 **If your are using Windows machine, then**
 
